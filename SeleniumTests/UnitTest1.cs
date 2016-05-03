@@ -53,7 +53,7 @@ namespace SeleniumTests
         }
 
         [TestMethod]
-        public void DasboarbPageShouldBeOpenedInFirefox()
+        public void DasboardPageShouldBeOpenedInFirefox()
         {
             FirefoxProfile profile = new FirefoxProfile();
             profile.SetPreference("network.http.phisy-userpass-length", 255);
@@ -64,7 +64,7 @@ namespace SeleniumTests
         }
 
         [TestMethod]
-        public void DasboarbPageShouldBeOpenedInChrome()
+        public void DasboardPageShouldBeOpenedInChrome()
         {
             driver = new ChromeDriver();
             OpenBrowserAndValidateDashboard();
@@ -72,7 +72,7 @@ namespace SeleniumTests
         }
 
         [TestMethod]
-        public void DasboarbPageShouldBeOpenedInIE()
+        public void DasboardPageShouldBeOpenedInIE()
         {           
             driver = new InternetExplorerDriver();
             OpenBrowserAndValidateDashboard();
